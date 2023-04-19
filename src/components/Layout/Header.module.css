@@ -1,0 +1,16 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  text-transform: capitalize;
+  color: #caf0f8;
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 1;
+  }
+}

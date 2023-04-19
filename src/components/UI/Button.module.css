@@ -1,0 +1,33 @@
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  display: inline-block;
+  border: none;
+  padding: 0.4rem 1.25rem;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.08rem;
+  font-size: 0.75rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #5a1a01;
+  border-color: #5a1a01;
+  color: white;
+}
+
+.actions .button--alt {
+  color: #8a2b06;
+}
+
+.actions .button {
+  background-color: #8a2b06;
+  color: white;
+}

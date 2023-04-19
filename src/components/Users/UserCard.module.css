@@ -1,0 +1,85 @@
+.description {
+  align-items: center;
+  width: 40%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+h4 {
+  letter-spacing: 0.08rem;
+  text-align: justify;
+  line-height: 2.25;
+}
+
+.icon {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.user-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.user-list li {
+  padding: 1rem;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.person-img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.person-info {
+  padding-left: 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .person-info {
+    height: 40px;
+    display: grid;
+  }
+}
+
+.person-info .person-action {
+  display: flex;
+
+  color: #caf0f8ff;
+
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.person-info .person-action button {
+  border: none;
+  padding: 0.2rem 0.425rem 0.1rem 0.425rem;
+  background-color: transparent;
+  box-shadow: unset;
+  color: #df372b;
+}
+
+.person-info .person-action button:hover {
+  background-color: #df372b;
+  color: white;
+  box-shadow: unset;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}

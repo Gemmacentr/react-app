@@ -1,0 +1,48 @@
+.people {
+  background-color: #181823;
+  border-radius: 0.25rem;
+  width: 100%;
+  box-shadow: 4px 5px 15px rgb(0 0 0 / 40%);
+  box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.4);
+}
+.actionsTwo {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.actionsTwo button {
+  display: inline-block;
+  border: none;
+  padding: 0.4rem 1.25rem;
+  border-radius: 16px;
+  box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.4);
+  letter-spacing: 0.08rem;
+  font-size: 0.75rem;
+  transition: all 0.125s ease;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.actionsTwo .reset {
+  background-color: #0077b6ff;
+  color: #caf0f8ff;
+}
+
+.actionsTwo .reset:hover {
+  background-color: rgb(56, 146, 194);
+  color: white;
+}
+
+.actionsTwo .delete {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #df372b;
+}
+
+.actionsTwo .delete:hover {
+  background-color: #df372b;
+  color: white;
+}
